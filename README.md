@@ -8,7 +8,7 @@ Para realizar o semáforo, fiz um código simples que ajuda a piscar diferentes 
 <sub>Figura 01: Imagem do circuito.</sub>
 </div>
 <div align="center">
-<img src="../assets/circuito.jpg">
+<img src="assets/circuito.jpg">
 </div>
 
 <div align="center">
@@ -21,7 +21,7 @@ Para isso funcionar, após conectar o circuito no computador, abri o Arduino IDE
 <sub>Figura 02: Print do Arduino IDE.</sub>
 </div>
 <div align="center">
-<img src="../assets/arduinoIDE.png">
+<img src="assets/arduinoIDE.png">
 </div>
 
 <div align="center">
@@ -85,7 +85,7 @@ Coloquei, no semáforo, os seguintes componentes:
 <sub>Figura 03: Descrição dos componentes do semáforo.</sub>
 </div>
 <div align="center">
-<img src="../assets/componentes.png">
+<img src="assets/componentes.png">
 </div>
 
 <div align="center">
@@ -114,7 +114,7 @@ As ligações realizadas foram as seguintes:
 <sub>Figura 04: Circuito explicado.</sub>
 </div>
 <div align="center">
-<img src="../assets/conexões.png">
+<img src="assets/conexões.png">
 </div>
 
 <div align="center">
@@ -127,7 +127,7 @@ Abaixo, segue a representação esquemática do circuito descrito acima.
 <sub>Figura 05: Esquemático de circuito do TinkerCad.</sub>
 </div>
 <div align="center">
-<img src="../assets/semaforo.png">
+<img src="assets/semaforo.png">
 </div>
 
 <div align="center">
