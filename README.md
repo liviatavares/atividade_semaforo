@@ -8,7 +8,7 @@ Para realizar o semáforo, fiz um código simples que ajuda a piscar diferentes 
 <sub>Figura 01: Imagem do circuito.</sub>
 </div>
 <div align="center">
-<img src="../assets/semaforo.png">
+<img src="../assets/circuito.jpg">
 </div>
 
 <div align="center">
@@ -75,48 +75,59 @@ Coloquei, no semáforo, os seguintes componentes:
 
 1. Protoboard - placa de prototipação de circuito.
 2. Arduino Uno 
-3. Jumpers preto, vermelho, verde e laranja
+3. Jumpers preto, cinza, vermelho, verde e laranja
 4. Led vermelho
 5. Led amarelo
 6. Led verde
-7. 3 resistores de 220 ohms.
-
+7. 3 resistores de 330 ohms.
+  
 <div align="center">
-<sub>Figura 03: Componentes do semáforo.</sub>
+<sub>Figura 03: Descrição dos componentes do semáforo.</sub>
 </div>
 <div align="center">
 <img src="../assets/componentes.png">
 </div>
 
 <div align="center">
-<sub>Fonte: Componentes do semáforo.</sub>
+<sub>Fonte: a autora.</sub>
 </div>
 
 As ligações realizadas foram as seguintes: 
 
-Com o primeiro fio preto, conectei o GND do arduíno à coluna negativa (-) da protoboard.
+- Com o primeiro fio preto, conectei o GND do arduíno à coluna negativa (-) da protoboard.
 
-Com os demais fios pretos, conectei o catodo de cada led à coluna negativa da protoboard.
+- Com os demais fios pretos, conectei o catodo de cada led à coluna negativa da protoboard.
 
-O anodo do led vermelho foi conectado a uma das pernas do resistor de 220 ohms.
+- O anodo do led vermelho foi conectado a uma das pernas do resistor de 330 ohms.
 
-O anodo do led verde foi conectado a uma das pernas do resistor de 220 ohms.
+- O anodo do led verde foi conectado a uma das pernas do resistor de 330 ohms.
 
-O anodo do led amarelo foi conectado a uma das pernas do resistor de 220 ohms.
+- O anodo do led amarelo foi conectado a uma das pernas do resistor de 330 ohms.
 
-A outra perna do resistor do led vermelho foi conectado à porta 4 do Arduino.
+- A outra perna do resistor do led vermelho foi conectado à porta 4 do Arduino.
 
-A outra perna do resistor do led amarelo foi conectado à porta 3 do Arduino.
+- A outra perna do resistor do led amarelo foi conectado à porta 3 do Arduino.
 
-A outra perna do resistor do led verde foi conectado à porta 2 do Arduino.
+- A outra perna do resistor do led verde foi conectado à porta 2 do Arduino.
+
+<div align="center">
+<sub>Figura 04: Circuito explicado.</sub>
+</div>
+<div align="center">
+<img src="../assets/conexões.png">
+</div>
+
+<div align="center">
+<sub>Fonte: a autora.</sub>
+</div>
 
 Abaixo, segue a representação esquemática do circuito descrito acima.
 
 <div align="center">
-<sub>Figura 04: Esquemático de circuito do TinkerCad.</sub>
+<sub>Figura 05: Esquemático de circuito do TinkerCad.</sub>
 </div>
 <div align="center">
-<img src="../assets/esquematico.png">
+<img src="../assets/semaforo.png">
 </div>
 
 <div align="center">
@@ -125,5 +136,5 @@ Abaixo, segue a representação esquemática do circuito descrito acima.
 
 Com isso, o simulador roda mostrando o semáforo funcionando. A simulação completa pode ser observada em `semaforo.brd`.
 
-Em `assets`, pode-se observar um vídeo do semáforo funcionando.
+Em `assets`, pode-se observar um vídeo do semáforo funcionando (`semaforo.mp4`).
 
