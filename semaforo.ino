@@ -23,12 +23,12 @@ void loop() {
   digitalWrite(LED_VERMELHO, LOW); 
   digitalWrite(LED_AMARELO, HIGH);
   // fica aceso por 4 segundos
-  delay(4000);
+  delay(2000);
   // depois desse tempo, o led amarelo se apaga e o led verde se acende.
   digitalWrite(LED_AMARELO, LOW);
   digitalWrite(LED_VERDE, HIGH);
   // fica aceso por 2 segundos, e depois o loop recomeça.
-  delay(2000);
+  delay(4000);
   digitalWrite(LED_VERDE, LOW);
 
 }
