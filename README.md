@@ -71,6 +71,17 @@ O código acima faz o semáforo funcionar.
 
 Aqui, detalho como eu realizei as conexões e o passo a passo da montagem do semáforo.
 
+<div align="center">
+<sub>Figura 03: Foto original dos componentes.</sub>
+</div>
+<div align="center">
+<img src="assets/componentes_2.jpg">
+</div>
+
+<div align="center">
+<sub>Fonte: a autora.</sub>
+</div>
+
 Coloquei, no semáforo, os seguintes componentes:
 
 1. Protoboard - placa de prototipação de circuito.
@@ -82,7 +93,7 @@ Coloquei, no semáforo, os seguintes componentes:
 7. 3 resistores de 330 ohms.
   
 <div align="center">
-<sub>Figura 03: Descrição dos componentes do semáforo.</sub>
+<sub>Figura 04: Descrição dos componentes do semáforo.</sub>
 </div>
 <div align="center">
 <img src="assets/componentes.png">
@@ -96,6 +107,17 @@ As ligações realizadas foram as seguintes:
 
 - Com o primeiro fio preto, conectei o GND do arduíno à coluna negativa (-) da protoboard.
 
+<div align="center">
+<sub>Figura 05: Ligação entre o arduino (gnd) e a protoboard.</sub>
+</div>
+<div align="center">
+<img src="assets/arduino_gnd.jpg">
+</div>
+
+<div align="center">
+<sub>Fonte: a autora.</sub>
+</div>
+
 - Com os demais fios pretos, conectei o catodo de cada led à coluna negativa da protoboard.
 
 - O anodo do led vermelho foi conectado a uma das pernas do resistor de 330 ohms.
@@ -104,6 +126,17 @@ As ligações realizadas foram as seguintes:
 
 - O anodo do led amarelo foi conectado a uma das pernas do resistor de 330 ohms.
 
+<div align="center">
+<sub>Figura 06: Ligação dos leds (exemplo: led verde).</sub>
+</div>
+<div align="center">
+<img src="assets/ligacao_led.jpg">
+</div>
+
+<div align="center">
+<sub>Fonte: a autora.</sub>
+</div>
+
 - A outra perna do resistor do led vermelho foi conectado à porta 4 do Arduino.
 
 - A outra perna do resistor do led amarelo foi conectado à porta 3 do Arduino.
@@ -111,7 +144,18 @@ As ligações realizadas foram as seguintes:
 - A outra perna do resistor do led verde foi conectado à porta 2 do Arduino.
 
 <div align="center">
-<sub>Figura 04: Circuito explicado.</sub>
+<sub>Figura 07: Circuito em funcionamento.</sub>
+</div>
+<div align="center">
+<img src="assets/ligacoes.jpg">
+</div>
+
+<div align="center">
+<sub>Fonte: a autora.</sub>
+</div>
+
+<div align="center">
+<sub>Figura 08: Circuito explicado.</sub>
 </div>
 <div align="center">
 <img src="assets/conexões.png">
@@ -124,7 +168,7 @@ As ligações realizadas foram as seguintes:
 Abaixo, segue a representação esquemática do circuito descrito acima.
 
 <div align="center">
-<sub>Figura 05: Esquemático de circuito do TinkerCad.</sub>
+<sub>Figura 09: Esquemático de circuito do TinkerCad.</sub>
 </div>
 <div align="center">
 <img src="assets/semaforo.png">
@@ -136,5 +180,5 @@ Abaixo, segue a representação esquemática do circuito descrito acima.
 
 Com isso, o simulador roda mostrando o semáforo funcionando. A simulação completa pode ser observada em `semaforo.brd`.
 
-Em `assets`, pode-se observar um vídeo do semáforo funcionando (`semaforo.mp4`).
+Em `assets`, pode-se observar um vídeo do semáforo funcionando (`semaforo.mp4`), também presente [nesse link](https://drive.google.com/drive/folders/1DkYw8YLHpxLM2EqymPbq5dR6SqDOc484?usp=drive_link) do google drive.
 
