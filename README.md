@@ -196,7 +196,7 @@ Em sala, usando o suporte de mdf dado pelo professor, coloquei o meu semáforo "
 </div>
 
 <div align="center">
-<sub>Fonte: TinkerCad.</sub>
+<sub>Fonte: a autora.</sub>
 </div>
 
 <div align="center">
@@ -312,3 +312,5 @@ void loop()
 // a vantagem de usar ponteiros é que facilita a passagem de objetos para funções, ou seja, em vez de duplicar o objeto,
 // a função apenas recebe o endereço dele, o que torna o código mais eficiente e evita cópias desnecessárias.
 ```
+
+O vídeo de funcionamento desse semáforo também se encontra em `assets`, bem como no google drive.
