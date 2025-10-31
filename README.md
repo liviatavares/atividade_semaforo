@@ -180,7 +180,7 @@ Abaixo, segue a representação esquemática do circuito descrito acima.
 
 Com isso, o simulador roda mostrando o semáforo funcionando. A simulação completa pode ser observada em `semaforo.brd`.
 
-Em `assets`, pode-se observar um vídeo do semáforo funcionando (`semaforo.mp4`), também presente [nesse link](https://drive.google.com/drive/folders/1DkYw8YLHpxLM2EqymPbq5dR6SqDOc484?usp=drive_link) do google drive.
+Em `assets`, pode-se observar um vídeo do semáforo funcionando (`semaforo_antigo.mp4`), também presente [nesse link](https://drive.google.com/drive/folders/1DkYw8YLHpxLM2EqymPbq5dR6SqDOc484?usp=drive_link) do google drive.
 
 ## 1. Em sala - melhoria do semáforo
 
